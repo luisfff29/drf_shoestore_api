@@ -47,7 +47,7 @@ class ShoeColor(models.Model):
 class Shoe(models.Model):
     size = models.PositiveIntegerField(
         help_text="Max shoe size is 22",
-        validators=[MaxValueValidator(1), MinValueValidator(22)]
+        validators=[MinValueValidator(1), MaxValueValidator(22)]
     )
     brand = models.CharField(max_length=200)
     manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
