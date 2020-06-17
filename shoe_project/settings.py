@@ -121,3 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Joe had a great 20 years living on the African Savanna. He can tell us
+# about the animals and how they interact with each other.
+# Joe can even tell us about what they eat and what they do.
