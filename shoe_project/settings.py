@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'rest_framework',
     'api',
     'shoe_store'
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -125,3 +127,14 @@ STATIC_URL = '/static/'
 # Joe had a great 20 years living on the African Savanna. He can tell us
 # about the animals and how they interact with each other.
 # Joe can even tell us about what they eat and what they do.
+
+
+# DJango app for handling the server headers required for CORS
+# https://github.com/adamchainz/django-cors-headers
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ORIGIN_REGEX_WHITELIST = [
+    r"^https?://localhost:3\d{3}/?$",
+    r"^https?://localhost:8000/?$",
+]
