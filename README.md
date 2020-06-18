@@ -1,7 +1,7 @@
 # Shoe Store API
 
-Use of the Django REST framework and a fresh Django server to create an API for a shoe store with this repository: [https://github.com/luisfff29/drf_shoestore_api](https://github.com/luisfff29/drf_shoestore_api/]) and display it with a React app through this repository:
-[https://github.com/luisfff29/drf_shoestore_frontend](https://github.com/luisfff29/drf_shoestore_frontend/])
+Use of the Django REST framework and a fresh Django server to create an API for a shoe store with this repository: [https://github.com/luisfff29/drf_shoestore_api](https://github.com/luisfff29/drf_shoestore_api/) and display it with a React app through this repository:
+[https://github.com/luisfff29/drf_shoestore_frontend](https://github.com/luisfff29/drf_shoestore_frontend/)
 
 ## Installation
 
