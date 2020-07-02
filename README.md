@@ -5,28 +5,28 @@ Use of the Django REST framework and a fresh Django server to create an API for 
 
 ## Installation
 
-Use the package manager [poetry](https://python-poetry.org/) to install the Django API version.
+Use the package manager [poetry](https://python-poetry.org/) to start a virtual environment:
 
 ```bash
-poetry install
+    poetry shell
 ```
 
-Then, start a virtual environment with the following command:
+Then, install all the dependencies required for this project:
 
 ```bash
-poetry shell
+    poetry install
 ```
 
 Before move on to run the server don't forget to populate a couple of tables with:
 
 ```bash
-python manage.py bootstrap_data
+    python manage.py bootstrap_data
 ```
 
 Finally, you are ready to run the server with
 
 ```bash
-python manage.py runserver
+    python manage.py runserver
 ```
 
-and check out the Shoe Store API built with Django in this [link](http://localhost:8000/api).
+and check out the Shoe Store API built with Django in this [link](http://localhost:8000/api/shoe/).
