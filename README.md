@@ -17,12 +17,6 @@ Then, install all the dependencies required for this project:
     poetry install
 ```
 
-Before move on to run the server don't forget to populate a couple of tables with:
-
-```bash
-    python manage.py bootstrap_data
-```
-
 Finally, you are ready to run the server with
 
 ```bash
